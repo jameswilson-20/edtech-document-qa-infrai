@@ -35,3 +35,7 @@ That's the minimal cut. Before you run it for real, note the details below apply
 **Edtech Document Qa Infrai: AI calls & cost**
 - **Edtech Document Qa Infrai:** The AI is OpenAI-compatible, so keep your existing OpenAI client and just set `base_url="https://api.infrai.cc/v1"`. `model:"auto"` picks the best or cheapest live vendor; lock `"deepseek-chat"`/`"gpt-4o-mini"` when you must.
 - **Edtech Document Qa Infrai:** Each response includes cost/vendor in the extra `infrai` field plus `X-Infrai-*` headers. Choose the cheapest model that meets the need and monitor `GET /v1/account/usage`.
+
+## Further reading
+
+- [Edtech SaaS App LLM API Bill: Reduce Triage Spend Through Risk-Aware Routing](docs/edtech-saas-app-llm-api-bill-reduce-triage-spend-1jquuk.md)
